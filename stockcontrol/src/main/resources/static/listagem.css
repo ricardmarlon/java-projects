@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* Estilos Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*Estilo da tabela*/
+table {
+    width: 100%;
+    min-width: 600px; /* Defina a largura mínima desejada */
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #fff;
+}
+
+/* Definindo larguras fixas para as colunas */
+table th:nth-child(1), table td:nth-child(1) {
+    width: 25%; /* Ajuste a largura conforme necessário */
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+    width: 20%;
+}
+
+table th:nth-child(3), table td:nth-child(3) {
+    width: 20%;
+}
+
+table th:nth-child(4), table td:nth-child(4) {
+    width: 15%;
+}
+
+table th:nth-child(5), table td:nth-child(5) {
+    width: 20%;
+}
+
+
+/* Estilo do Botão */
+.btn_novo {
+    background-color: #3498db; /* Example button color */
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px 15px; /* Example button padding */
+    font-size: 16px; /* Example button font size */
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.btn_novo:hover {
+    background-color: #2980b9;
+}
+
+.btn_novo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn_orderby {
+    text-align: right;
+}
